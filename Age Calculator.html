@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="Design.css" />
+    <script src="Function.js"></script>
+  </head>
+  <body>
+    <div id="calculatorBody">
+      <p id="codedby">Developed & Coded by Saad</p>
+      <h1>Age Calculator</h1>
+      <div id="inputs">
+
+        <p id="YOB">Enter your year of birth:</p>
+        <input type="number" id="YOBinp" value="0000" required/>
+        
+        <p id="CY">Enter current year:</p>
+        <input type="number" id="cyinp" value="0000" required/>
+        
+        <button type="button" id="btn" onclick="calculateAge()">Calculate</button>
+        <p id="displayoutput">Your Age: </p>
+
+        <input type="number" id="output" value="" readonly />
+      </div>
+    </div>
+  </body>
+</html>
